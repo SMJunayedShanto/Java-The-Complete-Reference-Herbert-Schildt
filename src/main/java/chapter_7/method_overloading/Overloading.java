@@ -7,7 +7,7 @@ public class Overloading {
 		OverloadDemo overloadDemo = new OverloadDemo();
 		
 		overloadDemo.test();
-		overloadDemo.test(10);
+		overloadDemo.test(10.0);
 		overloadDemo.test(10,5);
 		double r = overloadDemo.test(10.0);
 		
