@@ -4,6 +4,37 @@ class Box{
 	double width;
 	double height;
 	double depth;
+	
+	
+	// non parameterized constructor
+	public Box() {
+		System.out.println("Costructing Box");
+		width = 10;
+		height = 10;
+		depth = 10;
+	}
+	
+	
+	// parameterized constructor
+	public Box(double w, double h, double d) {
+		width = w;
+		height = h;
+		depth = d;
+	}
+
+
+
+	// non parameterized method
+	double volume() {
+		return width*height*depth;
+	}
+	
+	// parameterized method
+	public void setDim(double w, double h, double d) {
+		width = w;
+		height = h;
+		depth = d;
+	}
 }
 
 class BoxDemo{
@@ -16,7 +47,7 @@ class BoxDemo{
 		box.height = 20;
 		box.depth = 15;
 		
-		vol = box.width*box.height*box.depth;
+		vol = box.volume();;
 		
 		System.out.println("Volume is : "+vol);
 		
@@ -26,7 +57,7 @@ class BoxDemo{
 		box2.height = 6;
 		box2.depth = 9;
 		
-		vol = box2.width*box2.height*box2.depth;
+		vol = box2.volume();
 		
 		System.out.println("Volume is "+vol);
 	}
