@@ -1,4 +1,4 @@
-package stack_class;
+package chapter_6.stack_class;
 
 public class TestStack {
 

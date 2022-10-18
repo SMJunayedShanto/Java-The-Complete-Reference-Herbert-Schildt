@@ -1,4 +1,4 @@
-package method_overloading;
+package chapter_7.method_overloading;
 
 public class OverloadDemo {
 

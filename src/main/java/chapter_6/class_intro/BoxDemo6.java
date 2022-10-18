@@ -1,4 +1,4 @@
-package class_intro;
+package chapter_6.class_intro;
 
 public class BoxDemo6 {
 
