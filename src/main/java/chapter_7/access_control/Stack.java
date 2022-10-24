@@ -1,9 +1,9 @@
-package chapter_6.stack_class;
+package chapter_7.access_control;
 
 public class Stack {
 	
-	private int [] stack = new int [10];
-	private int tos;
+	int [] stack = new int [10];
+	int tos;
 	
 	 Stack() {
 		tos = -1;
